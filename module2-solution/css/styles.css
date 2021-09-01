@@ -1,0 +1,94 @@
+
+
+/* DEKSTOP RESPONSIVE */
+html{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+h1{ 
+    font-size: 200%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+section{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: flex;
+}
+
+article{
+    width: 33,3%;
+    margin: 5px;
+    display: flex;
+    padding: 10px;
+    border: black 1px solid;
+    background-color: rgba(153,153,153,255);
+    position: relative;
+}
+
+article p{
+    font-size: 100%;
+    text-align: left;
+    font-weight: normal;
+    color: black;
+    padding-top: 30px;
+}
+
+.ticket{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 5px 25px;
+    border: 1px solid black;
+    margin: 0%;
+}
+
+#tk1{
+    background-color: #d59898;
+}
+
+#tk2{
+    background-color: #c14543;
+}
+
+#tk3{
+    background-color: #e5d198;
+}
+
+
+/* MOVILE RESPONSIVE */
+@media (max-width:700px){
+  
+    section{
+        display: block;
+        width: 80%;
+    }
+    article{
+        display: block;
+    }
+    
+}
+/* TABLET RESPONSIVE */
+
+@media (min-width:750px) and (max-width:1100px){
+ 
+
+    section{
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        padding: 20px;
+    
+    }
+  
+   .atr3 {
+        display: block;
+        width: 195%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
