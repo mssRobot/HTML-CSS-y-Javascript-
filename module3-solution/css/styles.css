@@ -1,0 +1,226 @@
+body {
+    font-size: 20px;
+    color: black;
+    background-color: #fff;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color:rgba(153,153,153,255);
+    border-radius: 0;
+    border: 0;
+    padding-bottom: 10px;
+ 
+  }
+
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  .navbar-brand h1 { 
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-bottom: 10px
+  }
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #000000;
+    text-align: center;
+    display: none;
+
+  }
+  #nav-list a:hover {
+    background: #ffffff;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000000;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+  
+
+  
+  
+  
+  /* HOME PAGE */
+ h2{
+    font-size: 160%;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 20px;
+ }
+  #Chicken-tile, #Beef-tile, #Sushi-tile {
+    height: 350px;
+    width: 100%;
+    background-color: rgba(153,153,153,255);
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #000000;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+  }
+
+  #Chicken-tile {
+    background-position: center;
+  }
+  #Beef-tile {
+
+    background-position: center;
+  }
+
+  #Chicken-tile h3, #Beef-tile h3, #Sushi-tile h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 120%;
+  }
+
+  #Chicken-tile span, #Beef-tile span, #Sushi-tile span {
+   text-align: left;
+   font-size: 70%;
+   line-height: .1;
+   text-indent: 0px;
+   width: auto;
+
+
+  }
+
+
+
+
+  /* END HOME PAGE */
+  
+  /* MENU CATEGORIES PAGE */
+  .category-tile { 
+    position: relative;
+    border: 2px solid #000000;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+  }
+  .category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+  .category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  
+  #menu-categories-title + div {
+    margin-bottom: 50px;
+  }
+  /* END MENU CATEGORIES PAGE */
+  
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+    .container .jumbotron {
+      background: url('../images/jumbotron_1200.jpg') no-repeat;
+      height: 675px;
+    }
+
+  }
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+   
+
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand p { /* Kosher cert */
+      font-size: .6em;
+      margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star-K */
+      height: 20px;
+    }
+  
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+    #nav-list a {
+        display: block;
+    
+      }
+    /* End Header */
+  
+    
+  }
+  
+  
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+    /* End Header */
+    
+    /* Home page */
+    #Chicken-tile, #Beef-tile, #Sushi-tile {
+      width: 280px;
+      margin: 0 auto 15px;
+    }
+  
+    .col-xxs-12 {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      float: left;
+      width: 100%;
+    }
+  }
+  
+  
+  
+  
+
+  /* END HEADER */
+  
+  
