@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistroo</title>
+    <title>David Chu's China Bistroogit  </title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -105,4 +105,30 @@
   <script src="js/ajax-utils.js"></script>
   <script src="js/script.js"></script>
 </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        
+    </head>
+        
+    <body>
+            <h1 id="title" onclick="sayGoodbye();"> Hello </h1>
+        </body>
+        
+        <script type="text/javascript">
+            function sayGoodbye(){
+                console.log("goodbye");
+                $("#title").html("Goodbye");
+                $("#title").click(function () {
+                    $("#title").html("Hello");
+                    $("#title").off("click");
+                });
+            };
+        </script>
 </html>

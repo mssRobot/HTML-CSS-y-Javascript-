@@ -1,0 +1,44 @@
+html{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image{
+    width: 500px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: auto;
+}
+
+.imagebox{
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: auto;
+    text-align: center;
+}
+img{
+    margin-right: auto;
+    margin-left: auto;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+p a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 10px;
+    width: 100px;
+}
+
+

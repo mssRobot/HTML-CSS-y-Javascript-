@@ -1,0 +1,20 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+
+/** h1- the text have a ...
+*/
+
+h1{
+  /** color text */
+color: salmon;
+ /** background */
+background-color: black;
+ /** font */
+font-family: initial;
+ /** text size */
+font-size: 100px;
+ /** text align */
+text-align: center;
+
+}

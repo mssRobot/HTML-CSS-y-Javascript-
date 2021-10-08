@@ -1,0 +1,222 @@
+html{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: 3000px;
+}
+
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header */
+header{
+    margin-top: 0%;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: rgb(183, 119, 41) 2px solid;
+    background-color: rgb(45, 45, 45);
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    height: 100px;
+    display: block;
+    position: fixed;
+    top: 0%;
+    
+}
+
+.Headline {
+    background-color: rgb(225,54,53);
+    width: 80%;
+    font-size: 30px;
+    padding-top: 0,8px;
+    padding-bottom: 0,8px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    position: relative;
+}
+.Headline  p {
+   margin: 0%;
+   padding: 0%;
+}
+header b {
+    padding-top: 5px;
+    display: block;
+}
+#main-header {
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+
+
+/* INTRODUCCION AL EVENTO */
+
+.raw b{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.introduction {
+    width: 80%;
+    text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+
+    
+}
+
+.file{
+    width: 100%;
+}
+
+#main-content{
+    padding-top: 170px;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+}
+.col-md2{
+    width: 50%;
+}
+
+.container button{
+    background-color: rgb(183, 119, 41);
+    padding: 2px 15px 2px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 1px solid rgb(183, 119, 41);
+}
+
+.container button:hover{
+    background-color: rgb(255, 156, 35);
+
+    border: 1px solid rgb(255, 156, 35);
+}
+
+.container button a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-size: 18px;
+}
+/* FIN INTRODUCCION AL EVENTO */
+
+/* INICIO EXPLICACION CURSO */
+
+.content-course{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.content-course-1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-course-1 span{
+  font-weight: bolder;
+}
+/* MAIN CONTENT "" */
+.main-content-2{
+    width:90% ;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    display: flex;
+    font-size: 18px;
+}
+.row-content{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+
+
+/* CONTENT BOTE */
+.tour-contenidos{
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;}
+.contenido-1{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    width: 30%;
+    margin: 10px;
+    color: white;
+    background-color: rgb(225,54,53);
+    padding: 20px;
+    font-weight: bolder;
+}
+.content-course-1 h3{
+    font-size: 20px;
+}
+@keyframes myAnim {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+
+
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    header b {
+        padding-top: 5px;
+        display: none;
+    }
+}
+  
+/********** Extra small devices only **********/
+
+
+@media (max-width: 767px) {
+    header b {
+        padding-top: 5px;
+        display: none;
+    }
+}

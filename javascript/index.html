@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Miles to Kilometers Converter</title>
+	<!-- <script>
+		document.getElementById('convert').addEventListener('submit', function(event) {
+			
+			event.preventDefault();
+
+			var distance = parseFloat(document.getElementById('distance').value);
+			
+			if (distance) {
+				var conversion = (distance*1.609344).toFixed(3);
+				
+				var answer =document.getElementById('answer');
+
+
+				answer.innerHTML = `<h2> ${distance} miles converts to ${conversion} kilometers</h2>`;
+			} 
+				else{
+					answer.innerHTML = `<h2> please provide the number</h2>`;
+
+				}
+		});
+	</script> -->
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	
+	<!--/ /-------- Google Fonts --------/ /-->
+	<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans&display=swap" rel="stylesheet">
+	
+	<!--/ /-------- My Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+	<!-- <script src="javascript.js" defer></script> -->
+
+	<script src="index.js" defer></script>
+</head>
+
+
+<body>
+
+	<h1>Miles to Kilometers Converter</h1>
+    
+    <div class="container top">
+    	<p>Type in a number of miles and click the button to convert the distance to kilometers.</p>
+        
+        <form method="post" action="somephpfile.php" id="convert">
+        
+        	<input type="text" name="distance" id="distance" placeholder="distance">
+            <input type="submit" name="convertdist" value="Convert Distance">
+        
+        </form>
+    </div>
+    <div class="container bottom" id="answer">
+    	<h2 class="invisible">Answer goes here</h2>
+    
+	<p id="directions">Press the "k" key to switch to kilometer conversion , press the "m" key to switch to mile conversion</p>
+
+	</div>
+
+
+</body>
+</html>

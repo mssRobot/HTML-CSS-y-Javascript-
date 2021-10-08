@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <script src="script.js" defer> 
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <img src="image1.jpg" class="image" alt="slideshow image" id="myimage">
+    </div>
+
+    <p id="links"> <a href="#" id="previous">previous</a> <a href="#" id="next">next</a></p>
+
+
+
+    <script>
+        var currentImage = 0;
+        var myphotos = ["image1.jpg", "image2.jpg","image3.jpg", "image4.jpg", "image5.jpg"];
+        var container = document.getElementById("content");
+        var nextBtn =document.getElementById("next");
+        var prevBtn = document.getElementById("previous");
+   
+
+        nextBtn.addEventListener("click", function (event) {
+            event.preventDefault();
+            currentImage++;
+            if(currentImage > myphotos.length -1) {currentImage = 0;}
+
+            swapImage();
+
+           
+        });
+
+        prevBtn.addEventListener("click", function (event) {
+            event.preventDefault();
+            currenImage--;
+            if(currentImage < 0){ currentImage = myphotos.length-1;}
+
+            swapImage();
+
+           
+        });
+
+        function swapImage(){
+            
+            var newSlide = document.createElement("img");
+            newSlide.src = "slides/${myphotos[currentImage]}";
+            newSlide.className = "fadeinimage";
+            container.appendChild(newSlide);
+        }
+   </script>
+</body>
+</html>

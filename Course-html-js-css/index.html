@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work 1</title>
+    
+    <!-- TAG CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- TAG JS -->
+    <script src="javascript.js"></script>
+       <!-- to use jQuery we need to import it like this -->
+   <script src=" http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+    
+    <!-- PRINT H1 -->
+    <h1>Responsive website development and design</h1>
+
+    
+    <!-- ALERTA DE MENSAJE-->
+    <h2 id="title" onclick="alert('hello');" >
+        Hello
+    </h2>
+    
+    <!-- FIN DE ALERTA -->
+
+    <!-- CONSOLE LOG -->
+    <!--
+ 	    In this case the onclick functions
+	    writes something to the console.
+	    The console is an object so we use the
+	    dot (.) notation to call a function
+ 	    on it
+	-->
+    <h1 id="title"
+    onclick="console.log('hello');" >
+       Hello
+</h1>
+
+    <!-- END CONSOLE LOG -->
+    
+    <!--
+ 		in this example use use jQuery to
+ 	        change the content itself.
+  	        The $ is shorthand for the jQuery function
+		 We are passing in a CSS selector which
+		 gets this element by its id.
+		 The html function sets the html content
+		 of an element
+	-->
+	<h3 id="title" onclick="$('#title').html('Goodbye');">
+        Hello
+    </h3>	
+
+
+    <!-- Cambia BUEN DIA por GOODBYE1 apenas carga la pagina-->
+    <h3 id="title1" >
+        BUEN DIA    </h3>	
+  
+
+<script type="text/javascript">
+        $('#title1').html('Goodbye1');
+</script>
+   <!-- END Cambia BUEN DIA por GOODBYE1 apenas carga la pagina-->
+
+
+    <!-- CREAR UNA FUNCION ALERT-->
+<div class="div" id="alert1" onclick="sayHello();">
+    ATENCION</div>
+
+
+<script type="text/javascript">
+function sayHello(){
+    alert('ATENCION');
+};
+</script>
+        <!-- END CREAR UNA FUNCION ALERT-->
+</body>
+</html>

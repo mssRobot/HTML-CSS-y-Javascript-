@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>INSERT NUMBER HERE</h1>
+
+
+    <!-- this article generates an alert box where you must type a number. if that number is less than 10, then it returns a loop. If it is greater than 10, then it returns that the number is very large -->
+
+    <script>
+
+function checkNum(){
+var useNum = prompt("enter a whole number" , "");
+if (useNum < 10){
+console.log("You number less than 10");
+for (var i=0; i<10 ; i++){
+console.log(`here is a ${i}`);
+}
+}
+else if (useNum > 9) {
+console.log("you entecer a big number");
+} else {
+console.log("ERROR");
+}
+}
+checkNum();
+
+    </script>
+</body>
+</html>
