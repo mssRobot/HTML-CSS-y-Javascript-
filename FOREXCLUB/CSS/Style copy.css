@@ -10,108 +10,72 @@ html{
     height: 3000px;
 }
 
-body{
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-}
 
-/* header */
-header{
-    margin-top: 0%;
-    font-weight: bolder;
+/* 
+EMERGENTE OPEN */
+
+
+.example{
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    border-bottom: rgb(183, 119, 41) 2px solid;
-    background-color: rgb(45, 45, 45);
-    padding-top: 20px;
+    padding: 0px;
     width: 100%;
-    padding-bottom: 20px;
+}
+.off{
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
     height: auto;
-    display: block;
-    position: fixed;
-    top: 0%;
     
 }
-
-.Headline {
-    background-color: rgb(225,54,53);
+.off p{
+ 
     width: 80%;
-    padding-top: 2px ;
-    padding-bottom: 2px;
-    border-radius: 20px;
     margin-right: auto;
     margin-left: auto;
-    position: relative;
+    
 }
-
-header b {
-    padding-top: 5px;
-    display: block;
-}
-
-
-
-/* INTRODUCCION AL EVENTO */
-
-.raw b{
-    text-transform: uppercase;
-}
-
-.introduction {
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 15px;
     width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.file{
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 80%;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(225,54,53);
+    border-radius: 18px;
+}
+.devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.expiracion{
     width: 100%;
+    font-size: 18px;
 }
 
-
-
-/* FIN INTRODUCCION AL EVENTO */
-
-
-
-/* HOME PAGE */
-.container .jumbotron {
-    box-shadow: 0 0 50px #3F0C1F;
-    border: 2px solid #3F0C1F;
-  }
-  
-  #menu-tile, #specials-tile, #map-tile {
-    height: 250px;
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
-    border: 2px solid #3F0C1F;
-    overflow: hidden;
-  }
-  #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
-    box-shadow: 0 1px 5px 1px #cccccc;
-  }
-  #menu-tile {
-    background: url('../images/menu-tile.jpg') no-repeat;
-    background-position: center;
-  }
-  #specials-tile {
-    background: url('../images/specials-tile.jpg') no-repeat;
-    background-position: center;
-  }
-  #menu-tile span, #specials-tile span, #map-tile span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    background-color: #000;
-    color: #fff;
-    opacity: .8;
-  }
-  /* END HOME PAGE */
-
+/* 
+EMERGENTE OPEN */
+ 
 
 /********** Medium devices only **********/
 @media (min-width: 1200px) {

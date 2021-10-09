@@ -62,7 +62,73 @@ header b {
 	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
 }
 
+/* 
+EMERGENTE OPEN */
 
+
+
+
+
+.example{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.off{
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    
+}
+.off p{
+ 
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 80%;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(225,54,53);
+    border-radius: 18px;
+}
+.devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.expiracion{
+    width: 100%;
+    font-size: 18px;
+}
+
+/* 
+EMERGENTE OPEN */
 
 /* INTRODUCCION AL EVENTO */
 
