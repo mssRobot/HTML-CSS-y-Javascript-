@@ -87,6 +87,10 @@ header b {
 #main-content{
     padding-top: 170px;
     width: 100%;
+    background-image: url(../IMAGES/fondeo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .row{
@@ -170,7 +174,6 @@ h2{
     align-items: center;
     text-align: center;}
 .contenido-1{
-    animation: myAnim 2s ease 0s 1 normal forwards;
     width: 30%;
     margin: 10px;
     color: white;
@@ -181,22 +184,6 @@ h2{
 .content-course-1 h3{
     font-size: 20px;
 }
-@keyframes myAnim {
-    0%,
-    50%,
-    100% {
-      opacity: 1;
-    }
-  
-    25%,
-    75% {
-      opacity: 0;
-    }
-  }
-
-
-
-
 
 /********** Medium devices only **********/
 @media (min-width: 1200px) {
@@ -304,11 +291,9 @@ h2{
         font-size: 23px; 
         padding-left: 5px;
         padding-right: 5px;
-       
     }
     
 .raw b{
-
     font-size: 20px;
 }
 
@@ -342,6 +327,11 @@ h2{
     margin-left: auto;
     margin-right: auto;
    
+}
+.main-content-2 button {
+    padding: 20px 10px 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 }

@@ -9,11 +9,27 @@
     <!-- link style -->
     <link rel="stylesheet" href="CSS/Style.css">
         <!-- Link Javascript -->
-    <script src="JS/javascript.js"></script>
+        <link rel="stylesheet" href="CSS/shadowbox.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="JS/shadowbox.js"></script>
+        <script type="text/javascript">
+        Shadowbox.init({ language: "es", players:  ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv'] });
+         
+        setTimeout(function() {
+            Shadowbox.open({
+                content: '<div class="example"><img src="IMAGES/popup.png"></div>',
+                player: "html",
+                title: "ESPECIAL PARA VOS",
+                width: 400,
+                height: 460
+            });
+        }, 500);
+        </script>
     <!-- link font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header id="main-header">
@@ -145,10 +161,9 @@
         <div class="row-content">
             <p>El entrenamiento constará de  <span style="color: gold; font-weight: bolder;">UN MES</span> de formacion intensiva en el que nuestros mentores te brindaran <span style="color: gold; font-weight: bolder;">8 CLASES DE CONTENIDO</span>
             </p>
-            <br>
             <p style="font-size: 28px;">Y TENEMOS UN REGALO ESPECIAL PARA TI!!! SI TE INSCRIBIS EN LOS PRIMEROS 50 CUPOS PODRAS OBTENER LA <span style="color: gold; font-weight: bolder;">PRIMERA CLASE DE MANERA GRATUITA</span></p>
-<br>
-            <button><a href=""> RESERVA TU PRIMER CLASE GRATUITA</a></button>
+
+            <button><a href=""> RESERVA TU PRIMER CLASE GRATUITA.</a></button>
                     
             <br><br><br>
 
