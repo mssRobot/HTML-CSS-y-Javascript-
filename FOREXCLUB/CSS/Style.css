@@ -259,10 +259,7 @@ h2{
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-    header b {
-        padding-top: 5px;
-        display: none;
-    }
+
     .Headline{
         width: 90%;
         font-size: 23px; 
@@ -283,8 +280,8 @@ h2{
     width: 90%;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 20px;
 }
-
     
 .raw b{
 
@@ -329,14 +326,7 @@ h2{
 
 
 @media (max-width: 767px) {
-    header b {
-        padding-top: 5px;
-        display: none;
-    }
-    header b {
-        padding-top: 5px;
-        display: none;
-    }
+  
         
 .main-content-2{
     width:90% ;
@@ -350,6 +340,7 @@ h2{
     width: 90%;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 20px;
 }
 
     .Headline{
