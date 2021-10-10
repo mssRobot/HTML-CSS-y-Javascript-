@@ -75,15 +75,15 @@ EMERGENTE OPEN */
     width: 100%;
 }
 .off{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bolder;
     width: 100%;
     height: auto;
     
 }
 .off p{
- 
-    width: 80%;
+ font-weight: bolder;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     
@@ -251,8 +251,77 @@ h2{
     font-size: 20px;
 }
 
+
 /********** Medium devices only **********/
 @media (min-width: 1200px) {
+
+/* 
+EMERGENTE OPEN */
+
+
+
+
+
+.example{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.off{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    
+}
+.off p{
+ 
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 90%;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(225,54,53);
+    border-radius: 18px;
+}
+.devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.expiracion{
+    width: 100%;
+    font-size: 25px;
+}
+
+/* 
+EMERGENTE OPEN */
 
 }
 
@@ -280,12 +349,12 @@ h2{
     width: 90%;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
     
 .raw b{
 
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .introduction {
@@ -320,6 +389,75 @@ h2{
      margin-right: auto;
     
  }
+ 
+/* 
+EMERGENTE OPEN */
+
+
+
+
+
+.example{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.off{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    
+}
+.off p{
+ 
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 90%;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(225,54,53);
+    border-radius: 18px;
+}
+.devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.expiracion{
+    width: 100%;
+    font-size: 18px;
+}
+
+/* 
+EMERGENTE OPEN */
+
 }
   
 /********** Extra small devices only **********/
@@ -343,12 +481,12 @@ h2{
     font-size: 20px;
 }
 
-    .Headline{
+.Headline{
         width: 90%;
         font-size: 23px; 
         padding-left: 5px;
         padding-right: 5px;
-    }
+}
     
 .raw b{
     font-size: 20px;
@@ -390,5 +528,74 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* 
+EMERGENTE OPEN */
+
+
+
+
+
+.example{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.off{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    
+}
+.off p{
+ 
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 80%;
+  font-size: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(225,54,53);
+    border-radius: 18px;
+}
+.devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.expiracion{
+    width: 100%;
+    font-size: 13px;
+}
+
+/* 
+EMERGENTE OPEN */
+
 
 }
