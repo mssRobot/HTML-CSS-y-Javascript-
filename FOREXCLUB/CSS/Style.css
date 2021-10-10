@@ -550,7 +550,7 @@ EMERGENTE OPEN */
 }
 .off p{
  
-    width: 90%;
+    width: 95%;
     margin-right: auto;
     margin-left: auto;
     
@@ -567,7 +567,7 @@ EMERGENTE OPEN */
 
 .devolucion-de-dinero p {
   padding-top: 15px;
-  width: 93%;
+  width: 95%;
   font-size: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -587,7 +587,7 @@ EMERGENTE OPEN */
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 13px;
 }
 .expiracion{
     width: 100%;
