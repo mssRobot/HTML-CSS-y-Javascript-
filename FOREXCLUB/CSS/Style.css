@@ -343,17 +343,22 @@ BUTTON  */
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-    .Headline{
+.Headline{
         width: 90%;
         font-size: 23px;
         padding-left: 5px;
         padding-right: 5px;
         height: auto;
 
-       
-    }
-header .Headline b{
-    font-size: 15px;
+}
+
+header {
+    height: 200px;
+    padding: 5px 20px;
+}
+
+header b {
+    font-size: 10px;!important
 }
 .main-content-2{
     width:90% ;
@@ -483,7 +488,14 @@ EMERGENTE OPEN */
 
 @media (max-width: 767px) {
   
-        
+/* header {
+    height: 200px;
+    padding: 5px 20px;
+} */
+
+header b {
+    font-size: 15px;
+}      
 .main-content-2{
     width:90% ;
     margin-right: auto;
