@@ -345,13 +345,16 @@ BUTTON  */
 
     .Headline{
         width: 90%;
-        font-size: 23px; 
+        font-size: 23px;
         padding-left: 5px;
         padding-right: 5px;
         height: auto;
+
        
     }
-    
+header .Headline b{
+    font-size: 15px;
+}
 .main-content-2{
     width:90% ;
     margin-right: auto;
