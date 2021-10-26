@@ -105,7 +105,7 @@ header{
 .div-testimoniales .div-testimoniales-2 h5 a button{
     background-color: transparent;
     text-align: right;
-    border: 2px solid #ff3636;;
+    border: 2px solid #ff3636;
     font-size: 15px;
     border-radius: 35px;
     padding: 10px 25px 10px 25px;
@@ -129,6 +129,35 @@ header{
     max-width:100%;
     margin-top: 10px;
   }
+
+.modal-contenido{
+  background-color:rgb(0, 0, 0);
+  color: white;
+  width:300px;
+  padding: 10px 20px;
+  margin: 20% auto;
+  position: relative;
+}
+.modal{
+  background-color: rgb(0, 0, 0);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+.modal-contenido a{
+    color: white;
+    background-color: black;
+}
+
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
+}
 /* CONTENT BOTE */
 .tour-contenidos{
     display: flex;
@@ -266,9 +295,82 @@ header{
     color: white;
 }
 
+
+
+/* 
+EMERGENTE OPEN */
+
+
+.example{
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.off{
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    
+}
+.off p{
+ 
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.devolucion-de-dinero{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.devolucion-de-dinero p {
+  padding-top: 15px;
+  width: 80%;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.devolucion-de-dinero button {
+    margin-right: auto;
+     margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 80%;
+    font-size: 10px;
+    background-color: rgb(225,54,53);
+    border: 1px solid rgb(225,54,53);
+    border-radius: 25px;
+}
+.modal-contenido .devolucion-de-dinero button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    background-color: rgb(225,54,53);
+}
+.expiracion{
+    width: 100%;
+    font-size: 18px;
+}
+
+/* 
+EMERGENTE OPEN */
+ 
+
 /********** Medium devices only **********/
 @media (min-width: 1200px) {
-
+    header b {
+        padding-top: 5px;
+        display: none;
+    }
     #mained-header{
         padding-top: 10px;
         width: 100%;
@@ -342,6 +444,10 @@ header img {
 /********** Extra small devices only **********/
 
 @media (max-width: 767px) {
+    header b {
+        padding-top: 5px;
+        display: none;
+    }
 #mained-header{
         padding-top: 10px;
         width: 100%;
