@@ -152,13 +152,13 @@ header{
   color: white;
   width:300px;
   padding: 10px 20px;
-  margin: 20% auto;
+  margin: 10% auto;
   position: relative;
 }
 .modal{
   background-color: rgb(0, 0, 0);
   position:fixed;
-  top:0;
+  top: 0;
   right:0;
   bottom:0;
   left:0;
@@ -383,7 +383,7 @@ EMERGENTE OPEN */
  
 
 /********** Medium devices only **********/
-@media (min-width: 1200px) {
+/* @media (min-width: 600px) {
     header b {
         padding-top: 5px;
         display: none;
@@ -457,10 +457,22 @@ header img {
   width: 100%;
 }
 
-}
+} */
 /********** Extra small devices only **********/
 
 @media (max-width: 767px) {
+    
+.modal{
+    background-color: rgb(0, 0, 0);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
     header b {
         padding-top: 5px;
         display: none;
