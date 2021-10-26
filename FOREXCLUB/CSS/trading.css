@@ -113,13 +113,12 @@ header{
     color: white;
     
 }
-.testimoniales-modal a{
-    background-color: transparent;
+.tallerDeForex h5 a  {
+   background-color: transparent;
    text-decoration: none;
 
 }
-.testimoniales-modal {
-    
+.tallerDeForex h5 a .testimoniales-modal {
     background-color: transparent;
     text-align: right;
     border: 2px solid #ff3636;
