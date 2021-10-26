@@ -1,0 +1,310 @@
+html{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: black!important;
+    font-family: 'Blinker', sans-serif;}
+
+#mained-header{
+    padding-top: 20px;
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contenido-forex{
+    width: 80%;
+    padding-left: 10px;
+}
+h1{
+    color: white;
+}
+h5{
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+}
+header img {
+    clear: right;
+    float:right;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+header{
+    width: 50px;
+    float:right;
+}
+  
+
+/* Para tener un ancho máximo debemos de establecer el width del DIV.delimitador */
+.delimitador{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    /* El contenedor con el padding-top crea el tamaño del vídeo */
+    .contenedor{
+    height:0px;
+    width:100%;
+    max-width:1000px; /* Así establecemos el ancho máximo (si lo queremos) */
+    padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+    position:relative;
+
+    }
+    /* El iframe se adapta al tamaño del contenedor */
+    iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+    }
+
+.tallerDeForex{
+    width: 100%;
+    color: white;
+}
+.div-testimoniales{
+    width: 100%;
+    color: white;
+    background-image: url(../IMAGES/fondo.png);
+    padding: 10px;
+    height: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.div-testimoniales-2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.div-testimoniales .div-testimoniales-2 h5{
+    color: white;
+    margin: 0;
+    font-size: 25px;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.div-testimoniales .div-testimoniales-2 h5 a{
+    background-color: transparent;
+   text-decoration: none;
+   clear: right;
+    float:right;
+    display: flex;
+    align-items: flex-end;
+}
+.div-testimoniales .div-testimoniales-2 h5 a button{
+    background-color: transparent;
+    text-align: right;
+    border: 2px solid #ff3636;;
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    color: white;
+    
+}
+.videoYoutube1{
+    display: none;
+} 
+
+
+/* use this to put borders around things... */
+.crop-img{
+    max-height:150px;
+    max-width:100%;
+    margin-bottom: 10px;
+  }
+  
+  .large-img{
+    max-width:100%;
+    margin-top: 10px;
+  }
+/* CONTENT BOTE */
+.tour-contenidos{
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;}
+.contenido-1{
+    width: 30%;
+    margin: 10px;
+    color: white;
+    background-color: rgb(225,54,53);
+    padding: 20px;
+    font-weight: bolder;
+}
+.content-course-1 h3{
+    font-size: 20px;
+}
+
+.container{
+    margin-left: 10px;
+    background-color: black;
+    width:100%;
+    max-width:1000px;
+
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width:100%;
+    max-width:1000px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:black;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: left;
+    margin: 20px;
+    margin-left: 10px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(225,54,53);
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+
+  .container-2{
+
+    background-image: url(../IMAGES/fondo.png);
+    width: 100%;
+    background-size: 100%;
+    background-repeat: repeat;
+    height: 250px;
+    color: white;
+
+  }
+  .container-2 .align-container {
+    width: 80%;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.container-2 .align-container p{
+    padding-top: 40px;
+    font-size: 20px;
+    width: 40%;
+    text-align: left;
+
+}
+
+.container-2 .align-container a{
+    background-color: transparent;
+    text-decoration: none;  
+    width: 80%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.container-2 .align-container a button{
+    background-color: transparent;
+    text-align: right;
+    border: 2px solid #ff3636;;
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    color: white;
+}
+/********** Extra small devices only **********/
+
+
+@media (max-width: 767px) {
+    .contenido-forex{
+        width: 100%;
+        padding-left: 10px;
+    }
+
+.tour-contenidos{
+    display: block;
+    width: 90%;
+}
+.contenido-1{
+    align-items: center;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+    
+ }
+
+ .div-testimoniales{
+    width: 100%;
+    color: white;
+    background-image: url(../IMAGES/fondo.png);
+    padding: 10px;
+    height: 80px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.container-2 .align-container p{
+    padding-top: 40px;
+    font-size: 20px;
+    width: 60%;
+    text-align: left;
+
+}
+}
