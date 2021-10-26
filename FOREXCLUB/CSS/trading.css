@@ -113,6 +113,24 @@ header{
     color: white;
     
 }
+.testimoniales-modal a{
+    background-color: transparent;
+   text-decoration: none;
+
+}
+.testimoniales-modal {
+    
+    background-color: transparent;
+    text-align: right;
+    border: 2px solid #ff3636;
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
 .videoYoutube1{
     display: none;
 } 
