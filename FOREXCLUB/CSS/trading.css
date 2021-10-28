@@ -1,15 +1,16 @@
-/* PALETA DE COLORES
-rgb(16, 100, 255);
-#ff3636;
-rgb(255, 156, 35) */
-
-
 html{
     width: 100%;
     padding: 0%;
     margin: 0%;
     background-color: black;
-    font-family: 'Blinker', sans-serif;}
+    font-family: 'Blinker', sans-serif;
+}
+
+body{
+    width: 98%;
+    margin: 0;
+    padding:0;
+}
 
 #mained-header{
     padding-top: 20px;
@@ -17,20 +18,23 @@ html{
     height: 50%;
     margin-left: auto;
     margin-right: auto;
-
 }
+
 .contenido-forex{
     width: 80%;
     padding-left: 10px;
 }
+
 h1{
     color: white;
 }
+
 h5{
     color: white;
     font-size: 18px;
     padding-left: 10px;
 }
+
 header img {
     clear: right;
     float:right;
@@ -50,29 +54,30 @@ header{
     width:100%;
     margin-left: auto;
     margin-right: auto;
-    }
-    /* El contenedor con el padding-top crea el tamaño del vídeo */
-    .contenedor{
+}
+  
+.contenedor{
     height:0px;
     width:100%;
     max-width:1000px; /* Así establecemos el ancho máximo (si lo queremos) */
     padding-top:56.25%; /* Relación: 16/9 = 56.25% */
     position:relative;
-
-    }
-    /* El iframe se adapta al tamaño del contenedor */
-    iframe{
+}
+  
+iframe{
     position:absolute;
     height:100%;
     width:100%;
     top:0px;
     left:0px;
-    }
+}
 
 .tallerDeForex{
     width: 100%;
     color: white;
 }
+
+
 /* background-image: url(../IMAGES/fondo.png); */
 .div-testimoniales{
     width: 100%;
@@ -84,16 +89,15 @@ header{
     margin-left: 0;
     padding-left: 0%;
     padding-right: 0%;
- 
-
 }
+
 .div-testimoniales-2{
     width: 80%;
     margin-left: auto;
     background-color: black;
     margin-right: auto;
-
 }
+
 .div-testimoniales .div-testimoniales-2 h5{
     color: white;
     margin: 0;
@@ -102,6 +106,7 @@ header{
     background-color: black;
     padding-bottom: 10px;
 }
+
 .div-testimoniales .div-testimoniales-2 h5 a{
     background-color: transparent;
    text-decoration: none;
@@ -110,6 +115,7 @@ header{
     display: flex;
     align-items: flex-end;
 }
+
 .div-testimoniales .div-testimoniales-2 h5 a button{
     background-color: transparent;
     text-align: right;
@@ -119,20 +125,19 @@ header{
     padding: 10px 25px 10px 25px;
     font-weight: bold;
     color: white;
-    
+
 }
 
 
 .div-testimoniales .div-testimoniales-2 h5 a button:hover{
     background-color: rgb(16, 100, 255);
-    
 }
 
 .tallerDeForex h5 a  {
    background-color: transparent;
    text-decoration: none;
-
 }
+
 .tallerDeForex h5 a .testimoniales-modal {
     background-color: transparent;
     text-align: right;
@@ -150,17 +155,16 @@ header{
 } 
 
 
-/* use this to put borders around things... */
 .crop-img{
     max-height:150px;
     max-width:100%;
     margin-bottom: 10px;
-  }
+}
   
-  .large-img{
+.large-img{
     max-width:100%;
     margin-top: 10px;
-  }
+}
 
 .modal-contenido{
   background-color:rgb(0, 0, 0);
@@ -170,6 +174,7 @@ header{
   margin: 10% auto;
   position: relative;
 }
+
 .modal{
   background-color: rgb(0, 0, 0);
   position:fixed;
@@ -181,6 +186,7 @@ header{
   pointer-events:none;
   transition: all 1s;
 }
+
 .modal-contenido a{
     color: white;
     background-color: black;
@@ -190,14 +196,17 @@ header{
   opacity:1;
   pointer-events:auto;
 }
-/* CONTENT BOTE */
+
+
 .tour-contenidos{
     display: flex;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
     align-items: center;
-    text-align: center;}
+    text-align: center;
+}
+
 .contenido-1{
     width: 30%;
     margin: 10px;
@@ -206,6 +215,7 @@ header{
     padding: 20px;
     font-weight: bolder;
 }
+
 .content-course-1 h3{
     font-size: 20px;
 }
@@ -215,51 +225,52 @@ header{
     background-color: black;
     width:100%;
     max-width:1000px;
-
-  
 }
-
 
 .slider-oferta{
     width: 100%;
     height: 400px;
     overflow: hidden;
-  }
-  .slider-oferta ul{
+}
+
+.slider-oferta ul{
       display: flex;
       animation: cambio 20s infinite alternate linear;
       width: 200%;
-  }
-  .slider-oferta li{
+}
+
+.slider-oferta li{
       width: 100%;
       list-style: none;
-  }
-  .slider-oferta img{
+}
+  
+.slider-oferta img{
       width: 100%;
-      height: 100%;
-  }
-  @keyframes cambio{
+      height: 100%; 
+}
+
+@keyframes cambio{
       0%{margin-left: 0;}
       40%{margin-left: 0;}
       
       50%{margin-left: -100%;}
-      100%{margin-left: -100%;}
-      
+      100%{margin-left: -100%;}    
 }
-  ul, li {
+
+ul, li {
       padding: 0;
       margin: 0;
       list-style: none;
-  }
+}
   
-  ul.slider{
+ul.slider{
     position: relative;
     width:100%;
     max-width:1000px;
     height: 300px;
-  }
+}
   
-  ul.slider li {
+ul.slider li {
       position: absolute;
       left: 0px;
       top: 0px;
@@ -268,34 +279,34 @@ header{
       height: inherit;
       transition: opacity .5s;
       background:black;
-  }
-  
-  ul.slider li img{
+}
+
+ul.slider li img{
     width: 100%;
     height: 300px;
     object-fit: cover;
-  }
+}
   
-  ul.slider li:first-child {
+ul.slider li:first-child {
       opacity: 1; /*Mostramos el primer <li>*/
-  }
+}
   
-  ul.slider li:target {
+ul.slider li:target {
       opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
-  }
+}
   
-  .menu{
+.menu{
     text-align: left;
     margin: 20px;
     margin-left: 10px;
-  }
+}
   
-  .menu li{
+.menu li{
     display: inline-block;
     text-align: center;
-  }
+}
   
-  .menu li a{
+.menu li a{
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -305,20 +316,18 @@ header{
     height: 20px;
     font-size: 20px;
     border-radius: 100%;
-  }
+}
 
-
-  .container-2{
-
+.container-2{
     background-image: url(../IMAGES/fondo.png);
     width: 100%;
     background-size: 100%;
     background-repeat: repeat;
     height: 250px;
     color: white;
+}
 
-  }
-  .container-2 .align-container {
+.container-2 .align-container {
     width: 80%;
     text-align: left;
     padding-left: 20px;
@@ -326,12 +335,12 @@ header{
     margin-right: auto;
     color: white;
 }
+
 .container-2 .align-container p{
     padding-top: 40px;
     font-size: 20px;
     width: 40%;
     text-align: left;
-
 }
 
 .container-2 .align-container a{
@@ -358,34 +367,27 @@ header{
 
 .container-2 .align-container a button:hover{
     background-color: rgb(16, 100, 255);
- 
-    
 }
-
-
-/* 
-EMERGENTE OPEN */
-
 
 .example{
     text-align: center;
     padding: 0px;
     width: 100%;
 }
+
 .off{
     font-size: 20px;
     font-weight: bolder;
     width: 100%;
     height: auto;
-    
 }
+
 .off p{
- 
     width: 80%;
     margin-right: auto;
-    margin-left: auto;
-    
+    margin-left: auto; 
 }
+
 .devolucion-de-dinero{
     background-color: white;
     color: black;
@@ -415,6 +417,7 @@ EMERGENTE OPEN */
     border: 1px solid rgb(225,54,53);
     border-radius: 25px;
 }
+
 .modal-contenido .devolucion-de-dinero button a {
     text-decoration: none;
     color: white;
@@ -422,24 +425,31 @@ EMERGENTE OPEN */
     font-size: 12px;
     background-color: rgb(225,54,53);
 }
+
 .expiracion{
     width: 100%;
     font-size: 18px;
 }
+
 .slider-oferta a{
     margin: 0;
     padding: 0%;
 }
-/* 
-EMERGENTE OPEN */
+
  
 @media (min-width: 768px) and (max-width: 1000px){
 
-    .slider-oferta{
-
+.slider-oferta{
         height: 300px;
-        
-      }
+}
+
+#mained-header{
+    padding-top: 10px;
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 /********** Extra small devices only **********/
@@ -458,29 +468,31 @@ EMERGENTE OPEN */
     opacity:0;
     pointer-events:none;
     transition: all 1s;
-  }
-    header b {
+}
+header b {
         padding-top: 5px;
         display: none;
-    }
+}
+
 #mained-header{
         padding-top: 10px;
-        width: 100%;
+        width: 90%;
         height: 50%;
         margin-left: auto;
         margin-right: auto;
-    
 }
+
 h1{
     margin-top: 50px;
 }
+
 .container{
     margin-left: 0px;
     background-color: black;
     width:99%;
     max-width:1000px;
+}
 
-  }
 .container-2 .align-container {
     width: 90%;
     text-align: left;
@@ -489,27 +501,28 @@ h1{
     margin-right: auto;
     color: white;
 }
+
 .contenido-forex{
         width: 100%;
         padding-left: 10px;
-    }
+}
 
 .tour-contenidos{
     display: block;
     width: 90%;
 }
+
 .contenido-1{
     align-items: center;
      width: 90%;
      margin-left: auto;
-     margin-right: auto;
-    
- }
+     margin-right: auto; 
+}
 
- .div-testimoniales{
+
+.div-testimoniales{
     width: 100%;
     color: white;
-    
     padding: 10px;
     height: 80px;
     margin-right: 0;
@@ -518,15 +531,15 @@ h1{
     padding-right: 0%;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
+
 .container-2 .align-container p{
     padding-top: 40px;
     font-size: 20px;
     width: 60%;
     text-align: left;
-
 }
+
 header img {
   margin-bottom: 20px;
   width: 100%;
@@ -536,79 +549,7 @@ header img {
 
 /********** Medium devices only **********/
 @media (max-width: 400px)  {
-    /* header b {
-        padding-top: 5px;
-        display: none;
-    }
-    #mained-header{
-        padding-top: 10px;
-        width: 100%;
-        height: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    
-}
-h1{
-    margin-top: 50px;
-}
-.container{
-    margin-left: 0px;
-    background-color: black;
-    width:99%;
-    max-width:1000px;
-
-  }
-.container-2 .align-container {
-    width: 90%;
-    text-align: left;
-    padding-left: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-}
-.contenido-forex{
-        width: 100%;
-        padding-left: 10px;
-    }
-
-.tour-contenidos{
-    display: block;
-    width: 90%;
-}
-.contenido-1{
-    align-items: center;
-     width: 90%;
-     margin-left: auto;
-     margin-right: auto;
-    
- }
-
- .div-testimoniales{
-    width: 100%;
-    color: white;
-    background-image: url(../IMAGES/fondo.png);
-    padding: 10px;
-    height: 80px;
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-.container-2 .align-container p{
-    padding-top: 40px;
-    font-size: 20px;
-    width: 60%;
-    text-align: left;
-
-}
-header img {
-  margin-bottom: 20px;
-  width: 100%;
-} */
-
+   
 .slider-oferta{
     height:150px;
 }
