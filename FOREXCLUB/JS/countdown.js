@@ -6,11 +6,11 @@ simplyCountdown('#cuenta', {
 	minutes: 0, // Default is 0 [0-59] integer
 	seconds: 0, // Default is 0 [0-59] integer
 	words: { //words displayed into the countdown
-		days: ' Día',
-		hours: ' Hora',
-		minutes: ' Minuto',
-		seconds: ' Segundo',
-		pluralLetter: 's'
+		days: ' D',
+		hours: ' H',
+		minutes: ' M',
+		seconds: ' S',
+		
 	},
 	plural: true, //use plurals
 	inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds

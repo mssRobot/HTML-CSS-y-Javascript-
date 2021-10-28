@@ -220,6 +220,14 @@ iframe{
     font-size: 20px;
 }
 
+#cuenta{
+    color:black;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: blinker;
+
+}
+
 .container{
     margin-left: 10px;
     background-color: black;
@@ -438,6 +446,10 @@ ul.slider li:target {
 
  
 @media (min-width: 768px) and (max-width: 1000px){
+.modal-contenido{
+        margin: 0;
+
+}
 
 .slider-oferta{
         height: 300px;
@@ -455,6 +467,11 @@ ul.slider li:target {
 /********** Extra small devices only **********/
 
 @media (max-width: 767px) {
+.modal-contenido{
+        margin: 0;
+        width: 250px;
+}
+
 .slider-oferta{
     height: 250px;
 }
@@ -549,7 +566,10 @@ header img {
 
 /********** Medium devices only **********/
 @media (max-width: 400px)  {
-   
+.modal-contenido{
+        margin: 0;
+        width: 250px;
+}
 .slider-oferta{
     height:150px;
 }
