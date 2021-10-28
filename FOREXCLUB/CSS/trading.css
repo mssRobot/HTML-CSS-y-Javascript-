@@ -1,3 +1,9 @@
+/* PALETA DE COLORES
+rgb(16, 100, 255);
+#ff3636;
+rgb(255, 156, 35) */
+
+
 html{
     width: 100%;
     padding: 0%;
@@ -67,31 +73,33 @@ header{
     width: 100%;
     color: white;
 }
+/* background-image: url(../IMAGES/fondo.png); */
 .div-testimoniales{
     width: 100%;
     color: white;
-    background-image: url(../IMAGES/fondo.png);
+    background-color: black;
     padding: 10px;
     height: auto;
     margin-right: 0;
     margin-left: 0;
     padding-left: 0%;
     padding-right: 0%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+ 
 
 }
 .div-testimoniales-2{
     width: 80%;
     margin-left: auto;
+    background-color: black;
     margin-right: auto;
 
 }
 .div-testimoniales .div-testimoniales-2 h5{
     color: white;
     margin: 0;
-    font-size: 25px;
+    font-size: 30px;
     padding: 0;
+    background-color: black;
     padding-bottom: 10px;
 }
 .div-testimoniales .div-testimoniales-2 h5 a{
@@ -105,7 +113,7 @@ header{
 .div-testimoniales .div-testimoniales-2 h5 a button{
     background-color: transparent;
     text-align: right;
-    border: 2px solid #ff3636;
+    border: 2px solid rgb(16, 100, 255);
     font-size: 15px;
     border-radius: 35px;
     padding: 10px 25px 10px 25px;
@@ -113,6 +121,13 @@ header{
     color: white;
     
 }
+
+
+.div-testimoniales .div-testimoniales-2 h5 a button:hover{
+    background-color: rgb(16, 100, 255);
+    
+}
+
 .tallerDeForex h5 a  {
    background-color: transparent;
    text-decoration: none;
@@ -187,7 +202,7 @@ header{
     width: 30%;
     margin: 10px;
     color: white;
-    background-color: rgb(225,54,53);
+    background-color: rgb(16, 100, 255);
     padding: 20px;
     font-weight: bolder;
 }
@@ -201,8 +216,36 @@ header{
     width:100%;
     max-width:1000px;
 
-  }
   
+}
+
+
+.slider-oferta{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  .slider-oferta ul{
+      display: flex;
+      animation: cambio 20s infinite alternate linear;
+      width: 200%;
+  }
+  .slider-oferta li{
+      width: 100%;
+      list-style: none;
+  }
+  .slider-oferta img{
+      width: 100%;
+      height: 100%;
+  }
+  @keyframes cambio{
+      0%{margin-left: 0;}
+      40%{margin-left: 0;}
+      
+      50%{margin-left: -100%;}
+      100%{margin-left: -100%;}
+      
+}
   ul, li {
       padding: 0;
       margin: 0;
@@ -256,7 +299,7 @@ header{
     display: inline-block;
     color: white;
     text-decoration: none;
-    background-color: rgb(225,54,53);
+    background-color: rgb(16, 100, 255);
     padding: 10px;
     width: 20px;
     height: 20px;
@@ -304,7 +347,7 @@ header{
 .container-2 .align-container a button{
     background-color: transparent;
     text-align: left;
-    border: 2px solid #ff3636;;
+    border: 2px solid rgb(16, 100, 255);
     font-size: 15px;
     border-radius: 35px;
     padding: 10px 25px 10px 25px;
@@ -312,6 +355,12 @@ header{
     color: white;
 }
 
+
+.container-2 .align-container a button:hover{
+    background-color: rgb(16, 100, 255);
+ 
+    
+}
 
 
 /* 
@@ -377,14 +426,117 @@ EMERGENTE OPEN */
     width: 100%;
     font-size: 18px;
 }
-
+.slider-oferta a{
+    margin: 0;
+    padding: 0%;
+}
 /* 
 EMERGENTE OPEN */
  
+@media (min-width: 768px) and (max-width: 1000px){
+
+    .slider-oferta{
+
+        height: 300px;
+        
+      }
+}
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+.slider-oferta{
+    height: 250px;
+}
+.modal{
+    background-color: rgb(0, 0, 0);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+    header b {
+        padding-top: 5px;
+        display: none;
+    }
+#mained-header{
+        padding-top: 10px;
+        width: 100%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    
+}
+h1{
+    margin-top: 50px;
+}
+.container{
+    margin-left: 0px;
+    background-color: black;
+    width:99%;
+    max-width:1000px;
+
+  }
+.container-2 .align-container {
+    width: 90%;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.contenido-forex{
+        width: 100%;
+        padding-left: 10px;
+    }
+
+.tour-contenidos{
+    display: block;
+    width: 90%;
+}
+.contenido-1{
+    align-items: center;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+    
+ }
+
+ .div-testimoniales{
+    width: 100%;
+    color: white;
+    
+    padding: 10px;
+    height: 80px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.container-2 .align-container p{
+    padding-top: 40px;
+    font-size: 20px;
+    width: 60%;
+    text-align: left;
+
+}
+header img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+}
 
 /********** Medium devices only **********/
-/* @media (min-width: 600px) {
-    header b {
+@media (max-width: 400px)  {
+    /* header b {
         padding-top: 5px;
         display: none;
     }
@@ -455,95 +607,10 @@ h1{
 header img {
   margin-bottom: 20px;
   width: 100%;
-}
-
 } */
-/********** Extra small devices only **********/
 
-@media (max-width: 767px) {
-    
-.modal{
-    background-color: rgb(0, 0, 0);
-    position:fixed;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    opacity:0;
-    pointer-events:none;
-    transition: all 1s;
-  }
-    header b {
-        padding-top: 5px;
-        display: none;
-    }
-#mained-header{
-        padding-top: 10px;
-        width: 100%;
-        height: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    
-}
-h1{
-    margin-top: 50px;
-}
-.container{
-    margin-left: 0px;
-    background-color: black;
-    width:99%;
-    max-width:1000px;
-
-  }
-.container-2 .align-container {
-    width: 90%;
-    text-align: left;
-    padding-left: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-}
-.contenido-forex{
-        width: 100%;
-        padding-left: 10px;
-    }
-
-.tour-contenidos{
-    display: block;
-    width: 90%;
-}
-.contenido-1{
-    align-items: center;
-     width: 90%;
-     margin-left: auto;
-     margin-right: auto;
-    
- }
-
- .div-testimoniales{
-    width: 100%;
-    color: white;
-    background-image: url(../IMAGES/fondo.png);
-    padding: 10px;
-    height: 80px;
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-.container-2 .align-container p{
-    padding-top: 40px;
-    font-size: 20px;
-    width: 60%;
-    text-align: left;
-
-}
-header img {
-  margin-bottom: 20px;
-  width: 100%;
+.slider-oferta{
+    height:150px;
 }
 
-}
+} 
