@@ -280,12 +280,12 @@ POR QUE INVERTIR */
     .container-body{
     width: 90%;
     margin-left: auto;
-    margin-right: auto;
-    text-align: center;}
+    margin-right: auto;}
 
     h1{
     font-size: 30px;
-    padding-top: 90px;}
+    padding-top: 90px;
+    text-align: left;}
 
 
     .container-body p{
@@ -343,13 +343,13 @@ POR QUE INVERTIR */
     .container-body{   
         width: 95%;
         margin-left: auto;   
-        margin-right: auto;    
-        text-align: center;
+        margin-right: auto;   
     }
     
     h1{   
         font-size: 30px;   
         padding-top: 90px;
+        text-align: left;
     }
     
     .container-body p{
