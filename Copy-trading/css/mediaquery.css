@@ -33,9 +33,10 @@
         line-height: 1.5;}
 
 
-        .countdown-inversion{   
-            margin-top: 60px!important;    
-            margin-bottom: 60px!important;}
+    .countdown-inversion{   
+        margin-top: 60px!important;    
+            
+        margin-bottom: 60px!important;}
     
     .por-que-invertir{
         width: 100%;}
@@ -43,6 +44,15 @@
         .por-que-invertir-3{
             width: 90%;
         }
+        
+.por-que-invertir p{
+    padding-top: 15px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+}
+
         
 .por-que-invertir ul {
     padding-left: 40px;
@@ -88,6 +98,14 @@ h1{
 .por-que-invertir{
     width: 90%;
 }
+
+.por-que-invertir p{
+    padding-top: 15px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .por-que-invertir-3{
     width: 90%;
 }
