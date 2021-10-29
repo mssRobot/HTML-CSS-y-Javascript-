@@ -207,12 +207,12 @@ POR QUE INVERTIR */
 
 
 
-.por-que-invertir-3 a {
+.por-que-invertir-1 a {
     text-decoration: none;
     margin-top: 20px;
 }
 
-.por-que-invertir-3 a button{
+.por-que-invertir-1 a button{
     background-color: #ff3636;
     padding: 5px 25px;
     border: 1px solid #ff3636;
@@ -222,7 +222,7 @@ POR QUE INVERTIR */
     font-weight: bold;
     
 }
-.por-que-invertir-3 a button:hover{
+.por-que-invertir-1 a button:hover{
     background-color:black;
     padding: 5px 25px;
     border: 1px solid white;
@@ -308,6 +308,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
+    line-height: 1,5;
     background-image: url(../images/fondo-inversion.png);
 }
 
