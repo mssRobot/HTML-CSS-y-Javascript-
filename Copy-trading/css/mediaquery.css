@@ -1,0 +1,102 @@
+/* Entre 768 y 1000
+ */
+
+@media (min-width: 768px) and (max-width: 1000px){
+    
+}
+
+/*hasta 767
+ */
+
+ 
+@media (max-width: 767px) {
+    .container-body{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;}
+
+    h1{
+    font-size: 30px;
+    padding-top: 70px;}
+
+
+    .container-body p{
+    font-size: 23px;
+    line-height: 40px;}
+
+
+
+    .container-body p span{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        line-height: 1.5;}
+
+
+        .countdown-inversion{   
+            margin-top: 60px!important;    
+            margin-bottom: 60px!important;}
+    
+    .por-que-invertir{
+        width: 100%;}
+    
+        .por-que-invertir-3{
+            width: 90%;
+        }
+        
+.por-que-invertir ul {
+    padding-left: 40px;
+   }      
+
+.por-que-invertir-3 ul {
+ padding-left: 40px;
+}
+}
+
+
+/*hasta 400
+ */
+
+ 
+@media (max-width: 400px) {
+     
+.container-body{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
+}
+
+h1{
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+.container-body p{
+    font-size: 23px;
+    line-height: 40px;
+}
+
+
+.container-body p span{
+  margin-top: 10px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.por-que-invertir{
+    width: 90%;
+}
+.por-que-invertir-3{
+    width: 90%;
+}
+
+.por-que-invertir ul {
+padding-left: 40px;
+}      
+
+.por-que-invertir-3 ul {
+padding-left: 40px;
+
+}
