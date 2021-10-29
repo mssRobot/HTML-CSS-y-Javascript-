@@ -10,6 +10,7 @@ html{
     color: white;
     width: 100%;
     padding: 0%;
+    text-align: left;
     margin: 0%;
     background-color: black;
     font-family: 'Blinker', sans-serif;
@@ -50,7 +51,7 @@ header img {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
   
 }
 
@@ -177,7 +178,7 @@ POR QUE INVERTIR */
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .por-que-invertir h3{
@@ -243,13 +244,17 @@ POR QUE INVERTIR */
     margin:0;
     margin-bottom: 0px;
     font-size: 20px;
+    width: 100%;
 }
 
-
+p{
+    margin:0;
+    padding: 0;
+}
 .por-que-invertir-1 {
     margin-top: 70px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
@@ -262,89 +267,10 @@ POR QUE INVERTIR */
     background-color: rgba(0, 0, 0, 0.404);
     border-radius: 20px;
     font-size: 20px;
+    width: 70%;
 }
 /* 
 POR QUE INVERTIR */
 
 
-/* Entre 768 y 1000
- */
 
- @media (min-width: 768px) and (max-width: 1000px){
-    
-}
-
-/*hasta 767
- */
-
- 
-@media (max-width: 767px) {
-    
-/* CONTAINER BODY */
-
-
-.container-body{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  
-}
-h1{
-    font-size: 30px;
-    padding-top: 70px;
-}
-
-.container-body p{
-    font-size: 23px;
-    line-height: 40px;
-}
-
-
-.container-body p span{
-  margin-top: 10px;
-  margin-bottom: 40px;
-  line-height: 1.5;
-}
-
-.countdown-inversion{
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-
-}
-
-
-/*hasta 400
- */
-
- 
- @media (max-width: 400px) {
-     
-.container-body{
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  
-}
-
-h1{
-    font-size: 30px;
-    padding-top: 70px;
-}
-
-.container-body p{
-    font-size: 23px;
-    line-height: 40px;
-}
-
-
-.container-body p span{
-  margin-top: 10px;
-  line-height: 1.5;
-  margin-bottom: 40px;
-}
-
-}
