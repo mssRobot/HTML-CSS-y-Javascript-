@@ -1,27 +1,28 @@
-/* Reset css :  Con este código eliminamos márgenes, 
-padding y otras propiedades que los navegadores 
-añaden automáticamente */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
 
 *{
     box-sizing: border-box;
+	margin: 0%;
+	padding: 0%;
 }
 
+html{
+	margin: 0%;
+	padding: 0%;
+}
 body{
 	 font-family: 'blinker', sans-serif;
 	 background-image: url(../image/fondo.png);
 	 color: white;
+	 margin: 0%;
+	 padding: 0%;
 
 }
 
-.navbar-fixed-top.scrolled {
-	background-color: black !important;
-	transition: background-color 200ms linear;
-  }
+
+
 
 header{
-
+	background-color: black;
 	position: fixed;
 	width: 100%;
 	padding: 15px;
@@ -124,6 +125,9 @@ nav a:hover{
 	border-bottom-color:rgba(255,255,255,0.4);
 }
 
+ul{
+	list-style: none;
+}
 #content{
 	padding:250px 8%;
 	background-color: transparent;
@@ -320,17 +324,7 @@ background-color: rgba(0, 0, 0, 0.021);
 
 }
 
-ul {
-	padding-left: 20px;
-	width: 90%;
 
-	}
-
-
-#beneficios-fc li{
-	list-style: circle;
-	font-size: 20px;
-}
 /* COUNTDOWN */
 
 .countdown-inversion{
