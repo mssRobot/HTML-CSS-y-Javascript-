@@ -1,0 +1,215 @@
+
+
+
+
+.boton-desplegable{
+  text-align: left;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
+
+.hrre {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  width: 50%;
+  }
+  
+  .pregunta{
+      height: auto;
+      width: 80%;
+   border-radius: 10px;
+  color: white;
+      font-size: 20px;
+      margin: 1px;
+      line-height: 22px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  button .pregunta {
+      width: 60%;
+      padding: 10px;
+      vertical-align: middle;
+   border-radius: 10px;
+      font-size: 25px !important;
+      align-content: center;
+      text-align: center;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  button{
+      width: 70%;
+      background-color: black;
+      padding: 10px;
+      margin: 1px;
+      border-radius: 10px;
+      color: gold;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .pregunta:hover {
+      color: yellowgreen;
+      margin-left: auto;
+      margin-right: auto;
+  
+  }
+  
+  .contador{
+      width: 50%;
+  }
+  
+  .respuesta1 {
+      background: black;
+      width: 100%;
+  padding: 1px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+      color: rgb(255, 255, 255);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-transform: uppercase;
+   
+  }
+  
+  .boton1{
+      width: 30%;
+  }
+  
+  .pregunta1{
+  
+      border: 1px solid red;
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(255, 255, 255);
+      padding: 15px;
+      width: 70%;
+  }
+  
+  .pregunta3{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(255, 255, 255);
+      padding: 15px;
+  }
+  
+  .respuesta{
+      background: black;
+      width: 70%;
+  padding: -5%;
+  /* border: 1px solid black; */
+  vertical-align: middle;
+  border-radius: 10px;
+  font-size: 15px;
+      color: rgb(255, 255, 255);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-transform: uppercase;
+      margin-left: auto;
+      margin-right: auto;
+   
+  }
+  .botonwar{
+      width: 50%;
+      border: gold 1px solid;
+      border-radius: 10px;
+  }
+  .boton15{
+      width: 20%;
+  }
+  .content{
+      width: 100%;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .imgg{
+      align-items: flex-start;
+  }
+  
+  @media screen and (max-width: 900px) {
+      .corp{
+            width: 100%;
+            text-align: center;
+            align-items: center;
+           }
+           .boton1{
+               width: 50%;
+               }    
+               .content{
+                  width: 99%;
+  
+              }  
+              .boton15{
+                  width: 30%;
+              }
+              .botonwar{
+                  width: 70%;
+                  
+              }  
+              .pregunta{
+                  height: auto;
+                  width: 100%;
+                  margin-left: auto;
+                  margin-right: auto;
+              }
+              .boton1{
+                  width: 50%;
+              }
+              .buton{
+                  width: 70%;
+                 
+              }
+              .respuesta{
+                  width: 100% !important;
+                  margin-left: auto;
+                  margin-right: auto;
+                  
+              }
+              button {
+                  width: 100% !important;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin-top: 5px;
+                  margin-bottom: 5px;
+              }
+              
+              
+      
+           
+   }
+   @media screen and (max-width: 600px) {
+      .corp{
+            width: 98%;
+            text-align: center;
+            align-items: center;
+           }
+           .boton1{
+               width: 70%;
+               }      
+                  
+           
+   }
+   

@@ -1,0 +1,43 @@
+/* Entre 768 y 1000
+ */
+
+@media (min-width: 768px) and (max-width: 1000px){
+    
+  /* PALETA DE COLORES
+rgb(16, 100, 255);
+#ff3636;
+rgb(255, 156, 35) */
+
+
+}
+
+/*hasta 767
+ */
+
+ 
+@media (max-width: 767px) {
+    
+	#content{
+	
+		width: 85%;
+
+	
+	}
+    
+}
+
+
+/*hasta 400
+ */
+
+ 
+@media (max-width: 400px) {  
+    #content{
+	
+		width: 95%;
+    }
+    #content-home{
+	width: 95%;
+	}
+
+}

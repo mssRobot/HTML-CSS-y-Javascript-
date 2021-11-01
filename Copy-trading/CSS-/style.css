@@ -95,48 +95,6 @@ h1{
     left:0px;
 }
 
-/* 
-BOTON DESPLEGABLE  */
-
-
-ul, ol {
-    list-style:none;
-}
-
-.nav > li {
-    float:left;
-}
-
-.nav li a {
-    background-color:#000;
-    color:#fff;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
-}
-
-.nav li a:hover {
-    background-color:#434343;
-}
-
-.nav li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
-}
 
 
 /* CONTAINER BODY */
@@ -354,25 +312,6 @@ p{
     background-image: url(../images/fondo-inversion.png);
 }
 
-.por-que-invertir .desplegable:hover .links {
-    display: block;
-}
-
-.por-que-invertir .desplegable .boton{
-    background-color: ;
-    color: white;
-    border: none;
-    border-radius: 15px;
-    padding: 16px;
-}
-
-
-
-.links{
-    width: 90%;
-    display: none;
-}
-links
 .por-que-invertir-1  .por-que-invertir ul{
     text-align: left;
     padding-left: 10%;

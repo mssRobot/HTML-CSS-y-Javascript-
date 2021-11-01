@@ -1,4 +1,8 @@
+/* Entre 768 y 1000
+ */
 
+@media (min-width: 768px) and (max-width: 1000px){
+    
   /* PALETA DE COLORES
 rgb(16, 100, 255);
 #ff3636;
@@ -68,6 +72,8 @@ h1{
 .container-body p{
     font-size: 25px;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 25px;
@@ -95,48 +101,6 @@ h1{
     left:0px;
 }
 
-/* 
-BOTON DESPLEGABLE  */
-
-
-ul, ol {
-    list-style:none;
-}
-
-.nav > li {
-    float:left;
-}
-
-.nav li a {
-    background-color:#000;
-    color:#fff;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
-}
-
-.nav li a:hover {
-    background-color:#434343;
-}
-
-.nav li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
-}
 
 
 /* CONTAINER BODY */
@@ -215,64 +179,12 @@ ul, ol {
 POR QUE INVERTIR */
 
 .por-que-invertir{
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
 }
 
-
-.por-que-invertir a {
-    text-decoration: none;
-    margin-top: 20px;
-}
-
-.por-que-invertir a button{
-    background-color: #ff3636;
-    padding: 5px 25px;
-    border: 1px solid #ff3636;
-    border-radius: 15px;
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
-    
-}
-.por-que-invertir a button:hover{
-    background-color:black;
-    padding: 5px 25px;
-    border: 1px solid white;
-    border-radius: 15px;
-    font-size: 25px;
-    color:  white;
-    
-}
-
-
-
-.por-que-invertir-1 a {
-    text-decoration: none;
-    margin-top: 20px;
-}
-
-.por-que-invertir-1 a button{
-    background-color: #ff3636;
-    padding: 5px 25px;
-    border: 1px solid #ff3636;
-    border-radius: 15px;
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
-    
-}
-.por-que-invertir-1 a button:hover{
-    background-color:black;
-    padding: 5px 25px;
-    border: 1px solid white;
-    border-radius: 15px;
-    font-size: 25px;
-    color:  white;
-    
-}
 .por-que-invertir h3{
     padding-top: 100px;
     text-transform: uppercase;
@@ -298,7 +210,7 @@ POR QUE INVERTIR */
     padding-bottom: 60px;
 }
 .por-que-invertir-3{
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -336,13 +248,9 @@ POR QUE INVERTIR */
     margin:0;
     margin-bottom: 0px;
     font-size: 20px;
-    width: 100%;
 }
 
-p{
-    margin:0;
-    padding: 0;
-}
+
 .por-que-invertir-1 {
     margin-top: 70px;
     width: 100%;
@@ -350,39 +258,135 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
-    line-height: 1,5;
     background-image: url(../images/fondo-inversion.png);
 }
 
-.por-que-invertir .desplegable:hover .links {
-    display: block;
-}
-
-.por-que-invertir .desplegable .boton{
-    background-color: ;
-    color: white;
-    border: none;
-    border-radius: 15px;
-    padding: 16px;
-}
-
-
-
-.links{
-    width: 90%;
-    display: none;
-}
-links
 .por-que-invertir-1  .por-que-invertir ul{
     text-align: left;
     padding-left: 10%;
     background-color: rgba(0, 0, 0, 0.404);
     border-radius: 20px;
     font-size: 20px;
-    width: 70%;
 }
 /* 
 POR QUE INVERTIR */
+}
+
+/*hasta 767
+ */
+
+ 
+@media (max-width: 767px) {
+    .container-body{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;}
+
+    h1{
+    font-size: 30px;
+    padding-top: 90px;
+    text-align: left;}
+
+
+    .container-body p{
+    font-size: 23px;
+    line-height: 40px;}
 
 
 
+    .container-body p span{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        line-height: 1.5;}
+
+
+    .countdown-inversion{   
+        margin-top: 60px!important;    
+            
+        margin-bottom: 60px!important;}
+    
+    .por-que-invertir{
+        width: 100%;}
+    
+        .por-que-invertir-3{
+            width: 90%;
+        }
+        
+.por-que-invertir p{
+    padding-top: 15px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 1.5;
+}
+
+.por-que-invertir h3{
+    font-size: 35px;
+    padding-top: 40px;
+}
+        
+.por-que-invertir ul {
+    padding-left: 40px;
+   }      
+
+.por-que-invertir-3 ul {
+ padding-left: 40px;
+}
+}
+
+
+/*hasta 400
+ */
+
+ 
+@media (max-width: 400px) {  
+    .container-body{   
+        width: 95%;
+        margin-left: auto;   
+        margin-right: auto;   
+    }
+    
+    h1{   
+        font-size: 30px;   
+        padding-top: 90px;
+        text-align: left;
+    }
+    
+    .container-body p{
+           font-size: 23px;
+           line-height: 40px;
+        }
+        .container-body p span{ 
+            margin-top: 10px;
+             line-height: 1.5; 
+            margin-bottom: 40px;
+        }
+        .por-que-invertir{ 
+            width: 90%;
+        }
+
+
+        .por-que-invertir h3{
+             font-size: 35px;
+            padding-top: 40px;
+
+         }
+
+         .por-que-invertir p{
+             padding-top: 15px;
+             font-size: 20px;
+             margin-left: 15px;
+             margin-right: 15px;
+        }
+
+        .por-que-invertir-3{
+            width: 90%;
+        }
+
+        .por-que-invertir ul {
+            padding-left: 40px;
+        }   
+        .por-que-invertir-3 ul {
+            padding-left: 40px;}
+
+}
