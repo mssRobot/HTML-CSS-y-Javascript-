@@ -174,14 +174,14 @@ header .brand img{
   }
   #content p{
      color: white;
-     font-size: 25px;
+     font-size: 40px;
    }
   .menu a{
     font-size: 50px;
    }
 
    h1{
-     font-size: 50px;
+     font-size: 80px;
    }
    #content{
      padding: 250px 5px!important;
@@ -195,7 +195,8 @@ header .brand img{
    }
    #content button a{
      color: white;
-     font-size: 60px;
+     font-size: 80px;
+     border: rgba(0, 0, 0, 0.24) 2px solid;
    }
 
 
@@ -232,15 +233,15 @@ header .brand img{
     }  
 
     .content-black h3{
-      font-size: 30px;
+      font-size: 45px;
     
     }
     .content-black  p{
-      font-size: 30px;
+      font-size: 38px;
       width: 100%;
     }
     .content-black li{
-        font-size: 30px;
+        font-size: 38px;
         width: 100%;
     }
     
