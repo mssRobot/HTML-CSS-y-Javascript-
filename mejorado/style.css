@@ -119,7 +119,7 @@ header .btn{
   
   
 header .brand img{
-  height: 100px;
+  height: 150px;
 }
   #content h3{
     font-size: 45px;
@@ -162,7 +162,7 @@ header .brand img{
     left: 0;
     margin: 25px;
     color: black;
-    width: 300px;
+    width: 10px;
   }
 
   header .menu a{
@@ -196,20 +196,37 @@ header .brand img{
    #content button a{
      color: white;
      font-size: 80px;
-     border: rgba(0, 0, 0, 0.24) 2px solid;
+     background-color: #00000081;
+    border: 1px solid #ffffff81;
    }
 
+   #content button a:hover{
+    color: white;
+    font-weight: bolder;
+    font-size: 80px;
+    background-color: #ff3636;
+   border: 1px solid #ff3636;
+  }
 
    .content-home #content-home button{
-    background-color: #ff3636;
+    background-color: #00000081;
+    border: 1px solid #ffffff81;
     font-weight: bolder;
     text-align: left;
     width: 80%;
     font-size: 50px;
   }
-  
-   #content button a:hover{
-     background-color: transparent;
+  .content-home #content-home button:hover{
+
+    background-color: #ff3636;
+   border: 1px solid #ff3636;
+    font-weight: bolder;
+    text-align: left;
+    width: 80%;
+    font-size: 50px;
+  }
+   button a:hover{
+     background-color: #ff3636;
      font-weight: bolder;
    }
     
@@ -325,6 +342,9 @@ header .brand img{
 width: 95%;
 padding: 0%;}
 
+header .brand img{
+  height: 150px;
+}
 #content-home{
   width: 95%;
   padding: 0%;}
