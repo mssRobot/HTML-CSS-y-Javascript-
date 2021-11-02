@@ -4,7 +4,6 @@
 
 #content{
 	padding:250px 8%;
-	background-color: transparent;
 	text-align: left;
 	height:auto;
 	width: 85%;
@@ -109,8 +108,6 @@ p{
 	color: white;
 	background-color: black;
 	padding:80px 8% ;
-
-
 	text-align: left;
 	height:auto;
 	width: 85%;
@@ -245,3 +242,112 @@ background-color: rgba(0, 0, 0, 0.021);
     
 }
 /* FIN COUNTDOWN */
+
+
+.slider{
+	width: 100%;
+	max-height: 700px;
+	height: auto;
+	overflow: hidden;
+  }
+  .slider ul{
+	  display: flex;
+	  animation: cambio 20s infinite alternate linear;
+	  width: 300%;
+  }
+  .slider li{
+	  width: 100%;
+	  list-style: none;
+  }
+  .slider img{
+	  width: 100%;
+	  height: 100%;
+	  padding: 5px;
+  }
+  @keyframes cambio{
+	  0%{margin-left: 0;}
+	  35%{margin-left: 0;}
+	  
+	  40%{margin-left: -100%;}
+	  75%{margin-left: -100%;}
+	  
+	  80%{margin-left: -200%;}
+	  100%{margin-left: -200%;}
+	  
+  }
+
+  .content-black{
+
+	background-image: url(image/fondo.png);
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	color: white;
+
+  }
+  #content-black-1 {
+	  width: 85%;
+	  margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+  }
+  #content-black h3{
+	font-size: 30px;
+	line-height: 1.5;
+}
+
+  .content-black #content-black button{
+	width: auto;
+    height: auto;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.411);
+    font-size: 25px;
+	padding: 5px 25px;
+}
+
+  .content-black #content-black button:hover {
+	background-color: #ff3636;
+	border: 1px solid #ff3636;
+
+  }
+.content-4{
+	 background-color: rgba(0, 0, 0, 0.356);
+	 border-radius: 30px;
+	 margin: 0;
+	 padding: 50px 50px;
+	 width: 100%;
+	 line-height: 1.5;
+	
+}
+  .content-black li{
+	  font-size: 20px;
+	  margin-left: 10px;
+	  padding-left: 10px;
+	  width: 85%;
+  }
+
+  
+  .content-black h3{
+	font-size: 35px;
+	width: 85%;
+	line-height: 1.5;
+}
+
+
+.content-black p{
+	font-size: 20px;
+	width: 85%;
+	line-height: 1.5;
+}
+  @media only screen and (min-width:320px) and (max-width:768px){
+  .slider, .slider ul, .slider img{
+	  height: auto;
+  }
+  }

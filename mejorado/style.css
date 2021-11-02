@@ -105,7 +105,7 @@ header .btn{
 }
 @media (max-width: 991px){
   #content-home h3{
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.5;
   }
   #content-home p{
@@ -115,7 +115,7 @@ header .btn{
   
   
   #content h3{
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.5;
   }
   header, header.down{
