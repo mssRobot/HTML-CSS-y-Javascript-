@@ -92,6 +92,17 @@ header .btn{
   display: none;
 }
 
+.content{
+	color: white;
+	background-position: center;
+  background-image: url(image/fondo.png);
+
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+  opacity: 2;
+	padding: 0%;
+}
 @media (max-width: 991px){
   header, header.down{
   	padding: 10px 40px;
@@ -140,24 +151,28 @@ header .btn{
   }
   #content p{
      color: white;
-     font-size: 18px;
+     font-size: 25px;
    }
   .menu a{
-    font-size: 40px;
+    font-size: 50px;
    }
 
    h1{
-     font-size: 45px;
+     font-size: 50px;
    }
    #content{
      padding: 250px 5px!important;
      margin-left: auto;
      margin-right: auto;
    }
+   #content-home{
+    padding: 250px 5px!important;
+    margin-left: auto;
+    margin-right: auto;
+   }
    #content button a{
      color: white;
-     font-size: 30px;
-     border: 1px solid #ff3636;
+     font-size: 40px;
    }
 
    #content button a:hover{
@@ -197,6 +212,10 @@ header .btn{
 width: 95%;
 padding: 0%;}
 
+#content-home{
+  width: 95%;
+  padding: 0%;}
+  
 header .menu{
   position: fixed;
   background: #c4cffd;
@@ -209,5 +228,17 @@ header .menu{
   transition: 0.5s;
   transition-property: right;
 }
+h1{
+  font-size: 30px;
+}
+#content button a{
+  color: white;
+  font-size: 35px;
+}
+#content button a:hover{
+
+  font-size: 35px;
+}
+
 
 }

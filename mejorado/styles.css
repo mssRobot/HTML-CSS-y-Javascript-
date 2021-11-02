@@ -10,29 +10,19 @@
 	width: 85%;
 	margin-right: auto;
 	margin-left: auto;
-
 	position: relative;
 
-}
-.content{
-	color: white;
-	background-image: url(../image/fondo.png);
-	background-position: center;
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0%;
 }
 
 h1{
 	font-size: 40px;
 	color: white;
 	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
 p{
 	font-size: 30px;
-	opacity: 0.82;
 	line-height: 1.2em;
 	margin-bottom: 40px;
 	
@@ -102,22 +92,31 @@ p{
     left:0px;
 }
 
+#content button a{
+	color: white;
+	font-size: 30px;
+  }
+
+  #content button a:hover{
+	background-color: #ff3636;
+	font-weight: bolder;
+  }
 
 
 #content-home{
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: white;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
 	background-color: black;
 	padding:80px 8% ;
+
+
 	text-align: left;
 	height:auto;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
 	position: relative;
-	display: table;
-	transition: all 0.75s ease;
 
 }
 
