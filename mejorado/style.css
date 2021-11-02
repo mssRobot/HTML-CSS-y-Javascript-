@@ -35,6 +35,10 @@ header.down{
   padding: 5px 50px;
 }
 
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+  content: "\f0c9";
+  width: 200px;
+}
 header .brand{
   color: #fff;
   font-size: 30px;
@@ -114,6 +118,9 @@ header .btn{
   }
   
   
+header .brand img{
+  height: 100px;
+}
   #content h3{
     font-size: 45px;
     line-height: 1.5;
@@ -123,6 +130,8 @@ header .btn{
   }
   header .btn{
     display: block;
+    width: 100px;
+    height: 100px;
   }
 
   header .menu{
@@ -153,7 +162,7 @@ header .btn{
     left: 0;
     margin: 25px;
     color: black;
-    width: 100px;
+    width: 300px;
   }
 
   header .menu a{
@@ -186,17 +195,20 @@ header .btn{
    }
    #content button a{
      color: white;
-     font-size: 40px;
+     font-size: 60px;
    }
 
 
    .content-home #content-home button{
-      font-size: 40px;
-
+    background-color: #ff3636;
+    font-weight: bolder;
+    text-align: left;
+    width: 80%;
+    font-size: 50px;
   }
   
    #content button a:hover{
-     background-color: #ff3636;
+     background-color: transparent;
      font-weight: bolder;
    }
     
@@ -224,17 +236,51 @@ header .btn{
     
     }
     .content-black  p{
-      font-size: 20px;
+      font-size: 30px;
+      width: 100%;
+    }
+    .content-black li{
+        font-size: 30px;
+        width: 100%;
     }
     
+   
+.content-home button {
+  font-size: 35px;
+}
     
-    
-    
+ 
+.countdown-inversion a button{
+
+  font-size: 40px;
+  
+}   
+
+.floatWapp{
+	position:fixed;
+	width:120px;
+	height:120px;
+	bottom:20px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:90px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+  }
+  
     
 }
 
 @media (max-width: 600px){
+   
+.countdown-inversion a button{
+
+  font-size: 40px;
   
+}  
 #content-home p{
 	font-size: 25px;
 }
@@ -269,7 +315,7 @@ header .btn{
   font-size: 40px;
  }
 
-.menu.active ulli{
+.menu.active li{
   font-size: 30px;
 
  }
@@ -308,19 +354,33 @@ h1{
 
 .floatWapp{
 	position:fixed;
-	width:100px;
-	height:100px;
+	width:120px;
+	height:120px;
 	bottom:20px;
 	right:20px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-	font-size:70px;
+	font-size:90px;
 	box-shadow: 2px 2px 3px #999;
 	z-index:100;
   }
   
+.content-black p{
+	font-size: 30px;
+	width: 100%;
+	line-height: 1.5;
+}
+
+.content-black li {
+  font-size: 30px;
+  width: 100%;
+}
+
+.content-home button {
+  font-size: 35px;
+}
   .my-floatWapp{
 	margin-top:16px;
   }  
