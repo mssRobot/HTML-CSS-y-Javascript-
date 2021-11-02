@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'blinker', sans-serif;
-  background-color: black;
 }
 
 
@@ -13,34 +12,9 @@ html{
 body{
   min-height: 100vh;
 }
-header . brand img{
-  height: 60px;
+header .brand img{
+  height: 80px;
 }
-
-.section-main{
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  background: linear-gradient(to left, rgba(74,164,195,.8), rgba(0,0,0,0.1)), 
-  url(image/fondo.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 80px;
-}
-
-.section-main h1{
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 60px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 80px;
-  text-shadow: 0 0 3px #fff, 0 0 3px #000000;
-}
-
 header{
   z-index: 999;
   position: fixed;
@@ -57,7 +31,7 @@ header{
   max-width: 100px;
 }
 header.down{
-  background: #1483D5;
+  background: black;
   padding: 5px 50px;
 }
 
@@ -128,9 +102,10 @@ header .btn{
 
   header .menu{
     position: fixed;
-    background: #1483D5;
+    background: #c4cffd;
     min-width: 600px;
     width: 40%;
+    color: black;
     height: 100vh;
     top: 0;
     right: -100%;
@@ -152,23 +127,55 @@ header .btn{
     top: 0;
     left: 0;
     margin: 25px;
+    color: black;
+    width: 100px;
   }
 
   header .menu a{
     display: block;
-    font-size: 40px;
+    font-size: 30px;
     margin: 20px;
     padding: 0 15px;
+    color: black;
   }
-   
+  #content p{
+     color: white;
+     font-size: 18px;
+   }
   .menu a{
     font-size: 40px;
    }
 
+   h1{
+     font-size: 45px;
+   }
+   #content{
+     padding: 250px 5px!important;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   #content button a{
+     color: white;
+     font-size: 30px;
+     border: 1px solid #ff3636;
+   }
+
+   #content button a:hover{
+     background-color: #ff3636;
+     font-weight: bolder;
+   }
     
 }
 
 @media (max-width: 600px){
+  header .menu a{
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 5px 15px;
+    color: black;
+    text-align: center;
+  }
   .section-main h1{
     font-size: 50px;
     line-height: 60px;
@@ -189,5 +196,18 @@ header .btn{
 #content{
 width: 95%;
 padding: 0%;}
+
+header .menu{
+  position: fixed;
+  background: #c4cffd;
+  min-width: 300px;
+  width: 40%;
+  height: 100vh;
+  top: 0;
+  right: -100%;
+  padding: 80px 50px;
+  transition: 0.5s;
+  transition-property: right;
+}
 
 }
