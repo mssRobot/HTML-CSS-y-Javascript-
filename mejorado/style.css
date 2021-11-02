@@ -5,12 +5,17 @@
   font-family: 'blinker', sans-serif;
 }
 
+
+html{
+  background-color: black;
+}
 body{
   min-height: 100vh;
 }
 header . brand img{
   height: 60px;
 }
+
 .section-main{
   position: relative;
   width: 100%;
@@ -47,10 +52,12 @@ header{
   padding: 20px 80px;
   transition: 0.6s;
 }
-
+.image-favicon{
+  max-width: 100px;
+}
 header.down{
   background: #1483D5;
-  padding: 15px 80px;
+  padding: 5px 50px;
 }
 
 header .brand{
@@ -112,7 +119,7 @@ header .btn{
 
 @media (max-width: 991px){
   header, header.down{
-  	padding: 20px 40px;
+  	padding: 10px 40px;
   }
   header .btn{
     display: block;
@@ -148,7 +155,7 @@ header .btn{
 
   header .menu a{
     display: block;
-    font-size: 30px;
+    font-size: 40px;
     margin: 20px;
     padding: 0 15px;
   }
@@ -175,5 +182,11 @@ header .btn{
 
 .menu.active ulli{
   font-size: 30px;
+
  }
+ 
+#content{
+width: 95%;
+padding: 0%;}
+
 }

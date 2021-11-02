@@ -1,0 +1,247 @@
+
+
+
+
+#content{
+	padding:250px 8%;
+	background-color: transparent;
+	text-align: left;
+	height:auto;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	display: table;
+	transition: all 0.75s ease;
+
+}
+.content{
+	color: white;
+	background-image: url(../image/fondo.png);
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1{
+	font-size: 40px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+p{
+	font-size: 1.5em;
+	opacity: 0.82;
+	line-height: 1.2em;
+	margin-bottom: 40px;
+	
+}
+
+#content a{
+	font-size: 0.8em;
+	text-decoration: none;
+	display: inline-block;
+	padding: 12px 16px;
+	border-radius: 25px;
+	border:1px solid transparent;
+
+
+}
+
+/* 
+#content a:hover{
+} */
+
+
+
+#content button{
+	width: auto;
+	height: auto;
+	color: white;
+	border: 1px solid white;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.411);
+	font-size: 25px;
+}
+
+#content button:hover {
+	background-color: #ff3636;
+	border: 1px solid #ff3636;
+
+}
+
+.content-home{
+	background-color: black;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.delimitador{
+    width:90%;
+	height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.video-youtube{
+    height:0px;
+    width:100%;
+    max-width:1000px; /* Así establecemos el ancho máximo (si lo queremos) */
+    padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+    position:relative;
+}
+  
+.video-youtube iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+
+
+
+#content-home{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: white;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: black;
+	padding:80px 8% ;
+	text-align: left;
+	height:auto;
+	position: relative;
+	display: table;
+	transition: all 0.75s ease;
+
+}
+
+#content-home h3{
+	font-size: 30px;
+	line-height: 1.5;
+}
+
+#content h3{
+	font-size: 30px;
+	line-height: 1.5;
+}
+
+.image-comparar{
+	width: 90%;
+	
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+
+}
+
+#content-home p{
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+
+
+.content-home #content-home button a{
+	border: none;
+	text-decoration: none;
+	
+width: auto;
+height: auto;
+color: white;
+background-color: rgba(0, 0, 0, 0.021);
+
+}
+
+.content-home #content-home button{
+	width: auto;
+    height: auto;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.411);
+    font-size: 25px;
+	padding: 5px 25px;
+}
+
+.content-home #content-home button:hover {
+	background-color: #ff3636;
+	border: 1px solid #ff3636;
+
+
+}
+
+
+/* COUNTDOWN */
+
+.countdown-inversion{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 156, 35); 
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.countdown-inversion .text{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:35px;
+    font-weight: bold;
+    color: black;
+}
+
+.countdown{
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.countdown #DisplayFormat{
+    background-color: white;
+    padding: 10px;
+    font-size: 35px;
+
+}
+
+#count-tipe{
+    font-size: 35px;
+    margin-top: 40px;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 35%;
+    border:1px solid white;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+
+.countdown-inversion a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.countdown-inversion a button{
+    background-color: #ff3636;
+    padding: 5px 25px;
+    border: 1px solid #ff3636;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    
+}
+.countdown-inversion a button:hover{
+    background-color:black;
+    padding: 5px 25px;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 25px;
+    color:  white;
+    
+}
+/* FIN COUNTDOWN */
