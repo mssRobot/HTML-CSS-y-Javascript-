@@ -295,10 +295,6 @@ background-color: rgba(0, 0, 0, 0.021);
 	padding-bottom: 50px;
 
   }
-  #content-black h3{
-	font-size: 30px;
-	line-height: 1.5;
-}
 
   .content-black #content-black button{
 	width: auto;
@@ -337,6 +333,7 @@ background-color: rgba(0, 0, 0, 0.021);
 	font-size: 35px;
 	width: 85%;
 	line-height: 1.5;
+	color: rgb(255, 156, 35) ;
 }
 
 
@@ -345,9 +342,22 @@ background-color: rgba(0, 0, 0, 0.021);
 	width: 85%;
 	line-height: 1.5;
 }
+
+.floatWapp{
+	position:fixed;
+	width:80px;
+	height:80px;
+	bottom:20px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:55px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+  }
   
-@media only screen and (min-width:320px) and (max-width:768px){
-	.slider, .slider ul, .slider img{
-		height: 100vh;
-	}
-	}
+  .my-floatWapp{
+	margin-top:16px;
+  }     

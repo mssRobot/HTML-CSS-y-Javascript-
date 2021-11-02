@@ -200,6 +200,37 @@ header .btn{
      font-weight: bolder;
    }
     
+   .floatWapp{
+    position:fixed;
+    width:100px;
+    height:100px;
+    bottom:20px;
+    right:20px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:70px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    }
+    
+    .my-floatWapp{
+    margin-top:16px;
+    }  
+
+    .content-black h3{
+      font-size: 30px;
+    
+    }
+    .content-black  p{
+      font-size: 20px;
+    }
+    
+    
+    
+    
+    
 }
 
 @media (max-width: 600px){
@@ -208,6 +239,11 @@ header .btn{
 	font-size: 25px;
 }
 
+
+.content-black h3{
+  font-size: 30px;
+
+}
 
 .content-home #content-home button{
     font-size: 35px;
@@ -270,7 +306,24 @@ h1{
   font-size: 35px;
 }
 
-
+.floatWapp{
+	position:fixed;
+	width:100px;
+	height:100px;
+	bottom:20px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:70px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+  }
+  
+  .my-floatWapp{
+	margin-top:16px;
+  }  
 }
 
 @media only screen and (min-width:320px) and (max-width:768px){
