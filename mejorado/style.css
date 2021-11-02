@@ -108,6 +108,11 @@ header .btn{
     font-size: 40px;
     line-height: 1.5;
   }
+  #content-home p{
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  
   
   #content h3{
     font-size: 40px;
@@ -194,7 +199,7 @@ header .btn{
 @media (max-width: 600px){
   
 #content-home p{
-	font-size: 35px;
+	font-size: 25px;
 }
 
 
